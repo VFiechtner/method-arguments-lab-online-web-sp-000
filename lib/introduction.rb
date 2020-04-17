@@ -1,10 +1,10 @@
 require 'pry'
 
 def introduction(name)
-  puts "Hi, my name is #{name} ."
+  puts "Hi, my name is #{name}."
 end
 
-introduction( "Josh" )
+introduction("Josh")
 binding.pry
 
 def introduction_with_language(name, language)
